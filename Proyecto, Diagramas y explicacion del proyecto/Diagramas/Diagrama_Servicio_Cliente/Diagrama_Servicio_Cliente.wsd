@@ -1,0 +1,12 @@
+@startuml
+
+class ServicioCliente {
+    + INT id
+    + INT cliente_id
+    + INT servicio_id
+    + DATE fecha
+    + VARCHAR(20) estado
+    + DECIMAL(10,2) monto_total
+}
+
+@enduml

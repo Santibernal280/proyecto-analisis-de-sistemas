@@ -1,0 +1,12 @@
+@startuml
+
+class Cliente {
+    + INT id
+    + VARCHAR(50) documento
+    + VARCHAR(50) nombre
+    + VARCHAR(40) apellido
+    + VARCHAR(40) email
+    + VARCHAR(20) telefono
+}
+
+@enduml

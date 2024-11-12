@@ -1,0 +1,10 @@
+@startuml
+
+class Servicio {
+    + INT id
+    + VARCHAR(100) nombre_servicio
+    + VARCHAR(150) descripcion
+    + DECIMAL(10,2) costo
+}
+
+@enduml

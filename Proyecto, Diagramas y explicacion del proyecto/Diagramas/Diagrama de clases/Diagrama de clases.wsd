@@ -1,0 +1,31 @@
+@startuml
+
+class Cliente {
+    + INT id
+    + VARCHAR(50) documento
+    + VARCHAR(50) nombre
+    + VARCHAR(40) apellido
+    + VARCHAR(40) email
+    + VARCHAR(20) telefono
+}
+
+class Servicio {
+    + INT id
+    + VARCHAR(100) nombre_servicio
+    + VARCHAR(150) descripcion
+    + DECIMAL(10,2) costo
+}
+
+class ServicioCliente {
+    + INT id
+    + INT cliente_id
+    + INT servicio_id
+    + DATE fecha
+    + VARCHAR(20) estado
+    + DECIMAL(10,2) monto_total
+}
+
+Cliente "1" -- "0..*" ServicioCliente : tiene
+Servicio "1" -- "0..*" ServicioCliente : contiene
+
+@enduml

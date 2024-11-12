@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Gestión - Juan-Valdez</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+        <header class="header1">
+            <img alt="Juan Valdez logo in white text on red background" class="logo1" src="C:\Users\USER%20PC\Downloads\IMAGE1.jpg" />
+            <nav class="nav">
+                <div class="dropdown">
+                    <span>Nuestros clientes</span>
+                    <div class="dropdown-content">
+                        <a href="view/Cliente.html">Cliente</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <span>Nuestros servicios</span>
+                    <div class="dropdown-content">
+                        <a href="view/Servicio.html">Servicio </a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <span>Servicio a nuestros clientes</span>
+                    <div class="dropdown-content">
+                        <a href="view/ServicioCliente.html">Servicio al cliente</a>
+                    </div>
+                </div>
+                <a href="#">Trabaja con nosotros</a>
+                <a href="#">Blog</a>
+                <div class="cart-icon">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="search-container">
+                    <a href="#" id="search-toggle"><i class="fas fa-search"></i></a>
+                    <div class="search-box" id="search-box">
+                        <input type="text" placeholder="Buscar...">
+                    </div>
+                </div>
+                <a href="#">JV en el mundo</a>
+            </nav>
+        </header>
+        <div class="slider-dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot active" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    
+        <div class="stats-container">
+            <div class="stat-box">
+                <div class="stat-number" data-target="374">370</div>
+                <div class="stat-label">Tiendas en Colombia</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-target="233">233</div>
+                <div class="stat-label">Tiendas Internacionales</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-target="2700">2700</div>
+                <div class="stat-label">Colaboradores</div>
+            </div>
+        </div>
+    
+        <div class="banner1">
+            <img alt=" coffee package design, and text about unique Sierra Nevada coffee" src="C:\Users\USER%20PC\Downloads\IMAGE2.jpg" />
+        </div>
+    </body>
+    </html>
